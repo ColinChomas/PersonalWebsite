@@ -1,18 +1,24 @@
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex; */
+  /* place-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   min-width: 320px;
   min-height: 100vh;
   background-color: rgb(15, 15, 15);
+  /* border: 1px solid #ccc; */
 
 }
 
 .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-size: 1rem;
   color: whitesmoke;
   text-align: center;

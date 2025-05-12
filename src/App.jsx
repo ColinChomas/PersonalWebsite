@@ -34,7 +34,7 @@ function App() {
     const titleText = "Hello, I am Colin Chomas";
     const titleText2 = "Hallo, ich heiße Colin Chomas";
 
-    const subTitleText = "Passionate web development student at the Rochester Institute of Technology";
+    const subTitleText = "Full-Stack web development student at the Rochester Institute of Technology";
     const subTitleText2 = "Webentwicklungsstudent am Rochester Institute of Technology";
     const delay = 100;
 
@@ -60,7 +60,7 @@ function App() {
     <>
       <div class="intro">
           <h1></h1>
-          <h3>Passionate web development student at the Rochester Institute of Technology</h3>
+          <h3></h3>
           <PrimaryButton id="button1" text="About Me" inverted={false} onClick={handleNavigate} />
       </div>
     </>
