@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+    font-style: italic;
+}

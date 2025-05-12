@@ -1,0 +1,30 @@
+
+.primary-button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: lightblue;
+    color: royalblue;
+}
+
+.inverted {
+    background-color: inherit;
+    color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.inverted:hover {
+    background-color: lightblue;
+    color: royalblue;
+}

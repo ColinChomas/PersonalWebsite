@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerObject{
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.headerObject::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: gold;
+    transition: width .2s;
+}
+
+.headerObject:hover::after{
+    width: 100%;
+    transition: width .2s;
+}
+
+.selected::after {
+    width: 100%;
+    transition: width .2s;
+}
