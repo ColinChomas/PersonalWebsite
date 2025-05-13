@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.headerObject:hover{
+    color: gold;
+}
+
 .headerObject::after{
     content: '';
     position: absolute;
