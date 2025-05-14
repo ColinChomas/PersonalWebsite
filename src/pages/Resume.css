@@ -5,3 +5,8 @@
     padding: 20px;
     height: 100vh;
 }
+
+.resume-container embed{
+    max-width: 1500px;
+    height: 100%;
+}

@@ -14,3 +14,16 @@ a{
     text-decoration: none;
     font-style: italic;
 }
+
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    a{
+        font-size: 0.8rem;
+    }
+    
+}

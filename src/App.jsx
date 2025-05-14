@@ -51,7 +51,7 @@ function App() {
     const subTitleElement = document.querySelector('.intro h3');
     const subTextToType = isGerman ? subTitleText2 : subTitleText;
 
-    typeEffect(subTitleElement, subTextToType, delay);
+    typeEffect(subTitleElement, subTextToType, 50);
 
   }, []);
 

@@ -18,3 +18,19 @@
     border: #f0f0f0 2px solid;
     margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .portrait {
+        width: 80%;
+        height: auto;
+    }
+    
+}
