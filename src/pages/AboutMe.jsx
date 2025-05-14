@@ -1,9 +1,9 @@
 import React from 'react';
 import './AboutMe.css';
-import Header from '../components/layout/header/Header';
-import Footer from '../components/layout/footer/Footer';
-import TextBlock from '../components/common/TextBlock';
-import getData from '../utils/GetData';
+import Header from '../components/layout/header/Header.jsx';
+import Footer from '../components/layout/footer/Footer.jsx';
+import TextBlock from '../components/common/TextBlock.jsx';
+import getData from '../utils/GetData.js';
 
 function AboutMe() {
     const [loaded, setLoaded] = React.useState(false);

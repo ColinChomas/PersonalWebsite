@@ -1,7 +1,7 @@
 import './ContactMe.css';
-import Header from '../components/layout/header/Header';
-import Footer from '../components/layout/footer/Footer';
-import getData from '../utils/GetData';
+import Header from '../components/layout/header/Header.jsx';
+import Footer from '../components/layout/footer/Footer.jsx';
+import getData from '../utils/GetData.js';
 import React from 'react';
 
 

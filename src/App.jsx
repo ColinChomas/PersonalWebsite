@@ -1,5 +1,5 @@
 import './App.css';
-import PrimaryButton from './components/common/buttons/primaryButton/PrimaryButton';
+import PrimaryButton from './components/common/buttons/primaryButton/PrimaryButton.jsx';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 

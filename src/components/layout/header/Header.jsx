@@ -1,5 +1,5 @@
 import './Header.css';
-import HeaderObject from './HeaderObject';
+import HeaderObject from './HeaderObject.jsx';
 
 export default function Header({ currentPage }) {
 
