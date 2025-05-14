@@ -39,12 +39,12 @@ function App() {
     const delay = 100;
 
     // Log the language properties
-    console.log('navigator.language:', navigator.language);
+    // console.log('navigator.language:', navigator.language);
 
     const isGerman = navigator.language.toLowerCase() === 'de-de' || navigator.language.toLowerCase() === 'de';
     const textToType = isGerman ? titleText2 : titleText;
 
-    console.log(isGerman);
+    // console.log(isGerman);
 
     typeEffect(titleElement, textToType, delay);
 

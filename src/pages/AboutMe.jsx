@@ -30,7 +30,7 @@ function AboutMe() {
             <Header currentPage="About"/>
             <div className="container">
                 <h1>About Me</h1>
-                <img src="src\assets\images\ColinSquare480.jpg" alt="" className="portrait"/>
+                <img src={`${import.meta.env.BASE_URL}src/assets/images/ColinSquare480.jpg`} alt="" className="portrait"/>
                 <br/>
                 {data.map((object, index) => (
                     <TextBlock key={index} object={object} className="text-block"/>

@@ -7,7 +7,7 @@ export default function HeaderObject({text, selected, destination}) {
     return (
         <>
             <Link
-                    to={'/'+destination}
+                    to={`/${destination}`}
                     className={className}
             >
                 <div >

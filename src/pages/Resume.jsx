@@ -9,7 +9,7 @@ export default function Portfolio() {
             <Header currentPage="Resume"/>
             <div className="resume-container">
                 <h1>My Resume</h1>
-                <embed src="src/assets/Colin_Chomas_Resume_2025_2.pdf" type="application/pdf" width="100%" height="100%"/>
+                <embed src={`${import.meta.env.BASE_URL}src/assets/Colin_Chomas_Resume_2025_2.pdf`} type="application/pdf" width="100%" height="100%"/>
             </div>
             <Footer/>
         </>
