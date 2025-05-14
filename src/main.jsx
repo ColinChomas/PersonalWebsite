@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/PersonalWebsite">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about-me" element={<AboutMe />} />

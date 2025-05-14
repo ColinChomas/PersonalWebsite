@@ -10,7 +10,8 @@ function AboutMe() {
     const [data, setData] = React.useState([]);
 
     React.useEffect(() => {
-        getData('src/assets/json/AboutMe.json')
+        const url = `${import.meta.env.BASE_URL}src/assets/json/AboutMe.json`;
+        getData(url)
             .then((json) => {
                 setData(json);
                 setLoaded(true);
