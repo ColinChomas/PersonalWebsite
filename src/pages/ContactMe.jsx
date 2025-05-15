@@ -11,7 +11,7 @@ export default function ContactMe() {
     const [loaded, setLoaded] = React.useState(false);
 
     React.useEffect(() => {
-        const url = `${import.meta.env.BASE_URL}src/assets/json/ContactMe.json`;
+        const url = `${import.meta.env.BASE_URL}assets/json/ContactMe.json`;
         getData(url)
             .then((json) => {
                 setData(json);

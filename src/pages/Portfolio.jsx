@@ -35,7 +35,7 @@ export default function Portfolio() {
                         <h4><a href="https://people.rit.edu/cwc6640/ISTE340/project2/dist/" target="_blank">Project 2</a></h4>
                         <div className="portfolio-item-content">
                             <div className="portfolio-images">
-                                <img src="src\assets\screenshots\340\project2\homepage.png" alt="Project 2" />
+                                <img src="assets\screenshots\340\project2\homepage.png" alt="Project 2" />
                             </div>
                             <p className="project-description">
                                 Goal of the project:
@@ -50,9 +50,9 @@ export default function Portfolio() {
                         <h4>Project 3</h4>
                         <div className="portfolio-item-content">
                             <div className="portfolio-images">
-                                <img src="src\assets\screenshots\340\project3\home.png" alt="Project 3 Home page" />
-                                <img src="src\assets\screenshots\340\project3\table.png" alt="Project 3 table" />
-                                <img src="src\assets\screenshots\340\project3\tooltip.png" alt="Project 3 tool tip" />
+                                <img src="assets\screenshots\340\project3\home.png" alt="Project 3 Home page" />
+                                <img src="assets\screenshots\340\project3\table.png" alt="Project 3 table" />
+                                <img src="assets\screenshots\340\project3\tooltip.png" alt="Project 3 tool tip" />
                             </div>
                             <p className="project-description">
                                 Goal of the project:
@@ -70,8 +70,8 @@ export default function Portfolio() {
                         <h4>Health and Care App</h4>
                         <div className="portfolio-item-content">
                             <div className="portfolio-images">
-                                <img src="src\assets\screenshots\swen383\healthandcareapp.png" alt="Health and Care App" />
-                                <img src="src\assets\screenshots\swen383\addnewfood.png" alt="Add new food" />
+                                <img src="assets\screenshots\swen383\healthandcareapp.png" alt="Health and Care App" />
+                                <img src="assets\screenshots\swen383\addnewfood.png" alt="Add new food" />
                             </div>
                             <p className="project-description">
                                 Goal of the project:
