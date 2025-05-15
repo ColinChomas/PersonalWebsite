@@ -1,0 +1,14 @@
+[
+    {
+        "title": "",
+        "description": "My name is Colin Chomas and I am a Full Stack Web Developer studying at the Rochester Institute of Technology going into my Senior year after this summer. I am passionate about learning and growing my skills in web development and software engineering. On this website, you can find some of my class projects and personal projects that I have worked on. As well as some of my hobbies and interests."  
+    },
+    {
+        "title": "Hobbies and Interests",
+        "description": "I come from the Boston area so naturally I am a huge Boston sports fan. My grandparents come from England right outside of London, and thus I'm a massive Tottenham Hotspur fan. My favorite sports to watch are Ice Hockey, Soccer, and Basketball. During the school year I play intramural Hockey and Soccer with my Fraternity, Pi Kappa Phi. This love for sports is what's inspire me to creating my personal Fantasy Sports website, which at is still in development."
+    },
+    {
+        "title": "Education",
+        "description": "I am currently a rising Senior at the Rochester Institute of Technology, studying a Bachelors of Science in Web and Mobile Computing. I am pursuing a minor in German language and culture. I have a 3.0 cummulative GPA at RIT and a 3.23 GPA for my major courses. I have taken a variety of courses in web development, software development, and will be taking a course in mobile development this coming fall. I am a brother of Pi Kappa Phi Fraternity, and I was the Public Relations chair in my first full semester as a brother. In the fall of my Junior year I completed a semester abroad in Berlin, Germany, where I studied German language, culture, film, and urban history. For highschool, I attended Pomfret School in Pomfret, Connecticut, where I was the violist in my schools chamber orchestra for all 4 years. I competed in Junior Varisty Ice Hockey my first two years, and was the student manager for the varsity team my senior year."
+    }
+]
